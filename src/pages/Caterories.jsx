@@ -37,7 +37,7 @@ export const Caterories = () => {
         {
           eventos.map( (evento, i) => (
             <Col sm={4} key={i} style={{ border: '1px solid blue'}}>
-              <h1>{evento.name}</h1>
+              <Cards titulo={evento.name}/>
             </Col>
            ) )
         }

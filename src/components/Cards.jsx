@@ -1,5 +1,5 @@
 import { Card, Text } from 'dracula-ui'
-export const Cards = () => {
+export const Cards = ({titulo}) => {
 
   const colors = [
     'cyan',
@@ -15,7 +15,7 @@ export const Cards = () => {
   return (
     <>
       <Card className='w-[20rem]' borderColor={colors[0]} p="md" m="md">
-        <Text >Cumpleaños</Text>
+        <Text >{titulo}</Text>
       </Card>
     </>
 
