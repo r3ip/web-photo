@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-grid-system"
 export const Contact = () => {
   return (
     <>
-      <div className="mt-20">
+      <div className="md:mt-48">
         <div className="hero-content flex-col lg:flex-row">
           <div className="text-center lg:text">
             <h1 className="text-5xl font-bold">Contactame!</h1>

@@ -14,9 +14,9 @@ export const Cards = () => {
 
   return (
     <>
-      <Card className='w-[20rem]' borderColor={colors[0]} p="md" m="md">
+      {/* <Card className='w-[20rem]' borderColor={colors[0]} p="md" m="md">
         <Text >Cumpleaños</Text>
-      </Card>
+      </Card> */}
     </>
 
   )

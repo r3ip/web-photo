@@ -53,8 +53,8 @@ const App = () => {
             </Row>
           </Col>
 
-          <Col sm={11} className='h-[46rem]'>
-            <div className='w-full h-full' style={{border: '1px solid green'}}>
+          <Col sm={11}>
+            <div className='w-full h-full'>
               {container}
             </div>
           </Col>
